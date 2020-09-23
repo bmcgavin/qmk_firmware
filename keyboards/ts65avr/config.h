@@ -21,12 +21,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6464
+#define VENDOR_ID       0x5453 //TS
+#define PRODUCT_ID      0x0065
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    PendulumKB
-#define PRODUCT         TS65AVR
-#define DESCRIPTION     QMK keyboard firmware for TS65AVR
+#define PRODUCT         PendulumKB TS65AVR
+#define DESCRIPTION     PendulumKB TS65AVR
 
 /* key matrix size */
 #define MATRIX_ROWS 5
